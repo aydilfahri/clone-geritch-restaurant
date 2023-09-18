@@ -1,0 +1,35 @@
+.app__header {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: var(--color-black);
+    align-items: center; /* Untuk mengatur vertikal secara tengah */
+}
+
+.app__wrapper_info {
+    flex: 1; /* Ini akan mengambil sisa ruang yang tersedia */
+    display: flex;
+    justify-content: center;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 90px;
+    margin: 0; /* Hilangkan margin bawaan h1 untuk menghindari jarak yang tidak diinginkan */
+}
+
+.app__wrapper_img {
+    flex: 1; /* Ini akan mengambil sisa ruang yang tersedia */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Untuk mengatur vertikal secara tengah */
+}
+
+.app__wrapper_img img {
+    max-width: 100%; /* Gunakan max-width agar gambar tidak melebihi lebar container */
+    height: auto; /* Biarkan tinggi gambar disesuaikan dengan lebar untuk menjaga rasio aspek */
+}
