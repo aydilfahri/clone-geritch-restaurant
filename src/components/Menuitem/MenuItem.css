@@ -1,6 +1,7 @@
 .app__menuitem {
     width: 100%;
     margin: 1rem 0;
+
     display: flex;
     flex-direction: column;
 }
@@ -13,7 +14,7 @@
 
 .app__menuitem-sub {
     width: 100%;
-    margin-top: 0.02rem;
+    margin-top: 0.2rem;
 }
 
 .app__menuitem-name {
